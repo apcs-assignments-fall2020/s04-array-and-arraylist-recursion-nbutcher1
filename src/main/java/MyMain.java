@@ -83,7 +83,7 @@ public class MyMain {
                }
                else if ( arr[middleIndex] > num) {
                    upperBound = middleIndex -1;
-                   return binarySearchRec(arr,num,lowerBound,upperBound);                   
+                   return binarySearchRec(arr,num,lowerBound,upperBound);
                }
                else {
                    return true;
@@ -96,3 +96,6 @@ public class MyMain {
        
     }
 }
+
+
+//Jason skeoch helped me out with this some
